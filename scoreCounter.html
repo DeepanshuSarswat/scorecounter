@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="Scorecounter.css" />
+  <body>
+    <div id="seewhowin">
+      <h1>
+        <span class="winner" id="player1">0</span> to
+        <span class="winner" id="player2">0</span>
+      </h1>
+      <p>
+        playing to :
+        <strong><span id="GameLimit">X ,where X is veriable</span></strong>
+      </p>
+      <input type="number" name="" id="input" />
+      <button id="Start">Start</button>
+      <button id="p1">PlayerOne</button>
+      <button id="p2">PlayerTwo</button>
+      <button id="Reset" onclick="location.reload()">Reset</button>
+      <div>
+        <h1>PlayerOne is <span id="PlayerOneName">______</span></h1>
+        <h1>PlayerTwo is <span id="PlayerTwoName">______</span></h1>
+      </div>
+
+      <div class="background">
+        <h1 id="seewhowon">Let's see who wins.......</h1>
+      </div>
+    </div>
+
+    <script src="ScoreCounter.js"></script>
+  </body>
+</html>

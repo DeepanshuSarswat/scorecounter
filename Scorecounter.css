@@ -1,0 +1,19 @@
+body {
+  background-color: #868683;
+  /* background-image: url(https://images.pexels.com/photos/4931355/pexels-photo-4931355.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) ; */
+}
+
+.background {
+  background: #2e3a33;
+  border: 4px solid white;
+  width: 400px;
+
+  padding: 20px 40px;
+  /* text-align: center; */
+  /* background-position: top; */
+
+  margin: auto;
+}
+#seewhowin {
+  text-align: center;
+}
